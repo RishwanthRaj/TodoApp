@@ -1,0 +1,18 @@
+$primary-light: #707070;
+
+.header {
+  display: flex;
+
+  &__title {
+    color: $primary-light;
+    display: flex;
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  &__pinIcon {
+    color: $primary-light;
+    margin: auto;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,24 @@
+$primary-light: #707070;
+$primary-dark: #202020;
+$primary-white: #ededed;
+
+.footer {
+  &__close {
+    float: right;
+    clear: right;
+  }
+  &__editTime {
+    margin-right: 20px;
+    color: $primary-light;
+    float: right;
+  }
+}
+
+.close-btn {
+  padding: 15px;
+  background-color: $primary-dark;
+  color: $primary-white;
+  margin-right: 40px;
+  font-size: larger;
+  border: none;
+}

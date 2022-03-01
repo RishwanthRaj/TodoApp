@@ -1,0 +1,23 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-dark: #202020;
+$primary-light: #707070;
+
+* {
+  font-family: $font-stack;
+}
+
+body {
+  background-color: $primary-dark;
+  border: solid 1px $primary-light;
+  border-radius: 6px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 25px);
+}
+
+.space {
+  flex-grow: 1;
+}
